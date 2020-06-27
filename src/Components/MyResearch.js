@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Container, Accordion, Card, Button } from 'react-bootstrap'
+import React, { Component } from 'react';
+import { Container, Accordion, Card, Button } from 'react-bootstrap';
 
 //Custom css
 import '../Styles/MyResearch.css'
@@ -7,8 +7,8 @@ import '../Styles/MyResearch.css'
 export class MyResearch extends Component {
     render() {
         return (
-            <Container className="container-research mt-15" fluid>
-                <h3>Some of My Research Published Since 2012</h3>
+            <Container className="container-research bg-danger" fluid>
+                <h3 className="my-5 p-5">Some of My Research Published Since 2012</h3>
                 <Accordion>
                     <Card>
                         <Card.Header>

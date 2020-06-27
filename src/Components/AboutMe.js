@@ -6,8 +6,8 @@ import '../Styles/AboutMe.css'
 export class AboutMe extends Component {
     render() {
         return (
-            <Container className="mt-5" fluid>
-                <h3 className="mb-4">Ordinary Acehnese People, a Liverpudlians and Marvel Comic Fans</h3>
+            <Container className="container-about mt-5 bg-success" fluid>
+                <h3 className="my-5 p-5">Ordinary Acehnese People, a Liverpudlians and Marvel Comic Fans</h3>
                 <Row>
                     <Col md='2'></Col>
                     <Col>

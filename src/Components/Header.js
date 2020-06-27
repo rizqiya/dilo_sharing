@@ -7,8 +7,8 @@ import '../Styles/Header.css';
 export class Header extends Component {
     render() {
         return (
-            <Container className="container-header" fluid>
-                <Jumbotron className="jumbotron-header"> 
+            <Container className="container-header" variant="info" fluid>
+                <Jumbotron className="jumbotron-header mb-0"> 
                     <Image className="fluid-image" src={foto} roundedCircle fluid></Image>
                     <h1>Hi, My Name is Rizqiya</h1>
                     <p>This is my personal profile I created for testing using react-bootstrap.</p>

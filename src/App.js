@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Components
 import Header from './Components/Header';
-import Navbar from './Components/NavbarHeader';
+import NavbarHeader from './Components/NavbarHeader';
 import AboutMe from './Components/AboutMe';
 import MyResearch from './Components/MyResearch';
 import MyExperiences from './Components/MyExperiences';
@@ -20,9 +20,8 @@ function App() {
   return (
     <Router>
       <Container className="App" fluid>
+      <NavbarHeader />
       <Header />
-      <Navbar />
-
       <Switch>
         <Route path='/' exact component={AboutMe}/>
         <Route path='/aboutme' exact component={AboutMe}/>

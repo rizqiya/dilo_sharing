@@ -7,8 +7,8 @@ import '../Styles/MyExperiences.css'
 export class MyExperiences extends Component {
     render() {
         return (
-            <Container className="container-experiences justify-content-center" fluid>
-                <h3> </h3>
+            <Container className="container-experiences justify-content-center bg-info" fluid>
+                <h3 className="my-5 p-5"> My Works and Experiences</h3>
                 <Row>
                     <Col>
                         <Card>
