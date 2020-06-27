@@ -1,0 +1,10 @@
+
+body{
+    align-content: center;
+}
+
+.fluid-image {
+    size: 20vmax;
+    padding: 5px;
+    width: 150px;
+}

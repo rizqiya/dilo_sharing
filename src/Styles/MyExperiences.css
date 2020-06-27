@@ -1,0 +1,19 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+.container-experiences {
+    margin-top: 35px;
+}
+
+.container-experiences > h3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container-experiences .card {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
