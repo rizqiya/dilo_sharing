@@ -8,7 +8,7 @@ export class MyExperiences extends Component {
     render() {
         return (
             <Container className="container-experiences justify-content-center" fluid>
-                <h3> Some Of My Current Works</h3>
+                <h3> </h3>
                 <Row>
                     <Col>
                         <Card>

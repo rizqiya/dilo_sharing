@@ -40,21 +40,21 @@ export class MyResearch extends Component {
                     </Card>
                     <Card>
                         <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                        <Accordion.Toggle as={Button} variant="link" eventKey="2">
                             2014 - International Conference on ICT and Smart Society
                         </Accordion.Toggle>
                         </Card.Header>
-                        <Accordion.Collapse eventKey="1">
+                        <Accordion.Collapse eventKey="2">
                         <Card.Body>Intelligent Disaster Management System based on Service Engineering</Card.Body>
                         </Accordion.Collapse>
                     </Card>
                     <Card>
                         <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                        <Accordion.Toggle as={Button} variant="link" eventKey="3">
                             2013 - International Conference on ICT and Smart Society
                         </Accordion.Toggle>
                         </Card.Header>
-                        <Accordion.Collapse eventKey="1">
+                        <Accordion.Collapse eventKey="3">
                         <Card.Body>Quick Disaster Emergency Responses pada Pengembangan Kota Cerdas</Card.Body>
                         </Accordion.Collapse>
                     </Card>
