@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 
 import '../Styles/NavbarHeader.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // link antar Nav pada Navbar
 
 export class NavbarHeader extends Component {
     render() {

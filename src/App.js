@@ -1,6 +1,8 @@
 import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
+/**
+ * untuk menggunakan react-bootstrap, import library bootstrap disini
+ */
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Components
@@ -9,11 +11,14 @@ import NavbarHeader from './Components/NavbarHeader';
 import AboutMe from './Components/AboutMe';
 import MyResearch from './Components/MyResearch';
 import MyExperiences from './Components/MyExperiences';
-import FooterInfo from './Components/FooterInfo'
+import FooterInfo from './Components/FooterInfo';
+
+//Test Button
+//import ButtonTest from './Components/ButtonTest';
 
 //Router
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap'; 
 
 
 function App() {
@@ -26,7 +31,7 @@ function App() {
         <Route path='/' exact component={AboutMe}/>
         <Route path='/aboutme' exact component={AboutMe}/>
         <Route path='/research' exact component={MyResearch}/>
-        <Route path='/experiences' component={MyExperiences}/>
+        <Route path='/experiences' exact component={MyExperiences}/>
       </Switch>
 
       <FooterInfo />
